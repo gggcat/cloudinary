@@ -7,7 +7,5 @@ services:
       context: .
       dockerfile: Dockerfile
     tty: true
-    volumes:
-        - ./example:/example
     environment:
       CLOUDINARY_URL: ${CLOUDINARY_URL}
